@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Spotify</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrap.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="bg-main">
+        <div class="bg-main-img"></div>
+    </div>
+    <header>
+        <div class="navbar navbar-dark navbar-expand-lg fixed-top">
+            <div class="container justify-content-between">
+                <!--                                <a class="navbar-brand" href="#">Navbar</a>-->
+                <div class="navbar-header">
+                    <a href="#">
+                        <span class="navbar-logo">Spotify</span>
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <nav class="collapse navbar-collapse justify-content-end" id="navbar-nav navbarSupportedContent" role="navigation">
+                    <ul class="nav navbar-nav navbar-right nav-main">
+                        <li class="hidden">
+                            <a href="#" id="nav-link-Explore">
+                                Explore
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" id="nav-link-premium">
+                                Premium
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" id="nav-link-help">
+                                Help
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" id="nav-link-download">
+                                Download
+                            </a>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li>
+                            <a href="#" id="nav-link-sign-up">
+                                Sign up
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" id="header-login-link">
+                                Log in
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!--
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+-->
+            </div>
+        </div>
+    </header>
+
+    <div class="jumbotron">
+        <div class="containerr">
+
+
+            <div id="carousel-tour" class="carousel slide" data-ride="carousel" data-interval="false">
+
+                <!--                Indicators-->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-tour" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-tour" data-slide-to="1" class=""></li>
+                    <li data-target="#carousel-tour" data-slide-to="2" class=""></li>
+                    <li data-target="#carousel-tour" data-slide-to="3" class=""></li>
+                </ol>
+
+                <!--               Wrapper for slides-->
+                <div class="carousel-inner" role="listbox" style="height: 307px;">
+                    <div class="carousel-item active">
+                        <h1>
+                            <span class="text-white">
+                                3 months of Premium for $0.99.
+                            </span>
+                        </h1>
+                        <a href="#" class="btn btn-lg btn-solid js-button-hero-get-premium">
+                            Learn More
+                        </a>
+                        <p class="text-center text-white text-signup">
+                            Or sign up for out <a href="#" class="js-goto-signup">free service</a>
+                        </p>
+                    </div>
+
+                    <div class="carousel-item">
+                        <h1>
+                            <span class="text-white">
+                                Premium for your whole family. <br>Just $14.99.
+                            </span>
+                        </h1>
+                        <a href="#" class="btn btn-solid js-button-hero-family">
+                            LEARN MORE
+                        </a>
+                    </div>
+
+                    <div class="carousel-item">
+                        <h1>
+                            <span class="text-white">
+                                Students get 50% off Premium.
+                            </span>
+                        </h1>
+                        <a href="#" class="btn btn-solid js-button-hero-students">
+                            Learn More
+                        </a>
+                    </div>
+
+                    <div class="carousel-item">
+                        <h1>
+                            <span class="text-white">
+                                Play Spotify on PlayStation.
+                            </span>
+                        </h1>
+                        <a href="#" class="btn btn-solid js-button-hero-playstation">
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+
+                <!--                Controls-->
+                <a href="#carousel-tour" class="carousel-control-prev" data-slide="prev" role="button">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">
+                        Previous
+                    </span>
+                </a>
+                <a href="#carousel-tour" class="carousel-control-next" data-slide="next" role="button">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">
+                        Next
+                    </span>
+                </a>
+            </div>
+
+            <!--           <div id="carousel-tour" class="carousel-slide" data-ride="carousel" data-interval="false">
+
+                <ol class="carousel-indicators">
+                    <li data-targer="#carousel-tour" data-slide-to="0" class="active js-button-hero-carousel-dots"></li>
+                    <li data-targer="#carousel-tour" data-slide-to="1" class="js-button-hero-carousel-dots"></li>
+                    <li data-targer="#carousel-tour" data-slide-to="2" class="js-button-hero-carousel-dots"></li>
+                    <li data-targer="#carousel-tour" data-slide-to="3" class="js-button-hero-carousel-dots"></li>
+                </ol>
+
+                <div class="carousel-inner" role="listbox" style="height: 307px;">
+                    <div class="item active">
+                        <h1>
+                            <span class="text-white">
+                                3 months of Premium for $0.99.
+                            </span>
+                        </h1>
+                        <a href="#" class="btn btn-lg btn-solid js-button-hero-get-premium">
+                            Learn More
+                        </a>
+                        <p class="text-center text-white text-signup">
+                            Or sign up for out <a href="#" class="js-goto-signup">free service</a>
+                        </p>
+                    </div>
+
+                    <div class="item">
+                        <h1>
+                            <span class="text-white">
+                                Premium for your whole family. <br>Just $14.99.
+                            </span>
+                        </h1>
+                        <a href="#" class="btn btn-solid js-button-hero-family">
+                            LEARN MORE
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <h1>
+                            <span class="text-white">
+                                Students get 50% off Premium.
+                            </span>
+                        </h1>
+                        <a href="#" class="btn btn-solid js-button-hero-students">
+                            Learn More
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <h1>
+                            <span class="text-white">
+                                Play Spotify on PlayStation.
+                            </span>
+                        </h1>
+                        <a href="#" class="btn btn-solid js-button-hero-playstation">
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+
+                <a href="" class="left carousel-control js-button-hero-carousel-left-arrow">
+                    <span class="icon-prev"></span>
+                    <span class="sr-only">
+                        Previous
+                    </span>
+                </a>
+                <a href="" class="right carousel-control js-button-hero-carousel-right-arrow">
+                    <span class="icon-prev"></span>
+                    <span class="sr-only">
+                        Next
+                    </span>
+                </a>
+            </div>-->
+        </div>
+    </div>
+    
+    
+    <div class="container">
+        <a href="#whats-on-spotify" class="btn-scroll" name="whats-on-spotify">
+            <span class="btn-scroll-text">LEARN ABOUT SPOTIFY</span>
+        </a>
+    </div>
+    
+    <div class="jumbotron jumbotron-whats-on bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7 col-sm-push-5 col-md-5 col-md-push-7">
+                    <h2 class="text-klein-purple">
+                        What's on Spotify?
+                    </h2>
+                    <div>
+                        <h3 class="text-klein-purple">
+                            Music
+                        </h3>
+                        <p>
+                            There are millions of songs on Spotify. Play your favourites, discover new tracks and build the perfect collection.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-klein-purple">
+                            Playlist
+                        </h3>
+                        <p>
+                            There are millions of songs on Spotify. Play your favourites, discover new tracks and build the perfect collection.
+                        </p>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-klein-purple">
+                            New Releases
+                        </h3>
+                        <p>
+                            There are millions of songs on Spotify. Play your favourites, discover new tracks and build the perfect collection.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-sm-5 col-sm-pull-7 col-md-6 col-md-pull-5">
+                    <div class="albums row">
+                        <img src="https://i.scdn.co/image/6c41981dc659cc8a19a0371f42951d8dec48db7c" class="album-img cols-sm-6" alt="">
+                        <img src="https://i.scdn.co/image/6c41981dc659cc8a19a0371f42951d8dec48db7c" class="album-img cols-sm-6" alt="">
+                        <img src="https://i.scdn.co/image/6c41981dc659cc8a19a0371f42951d8dec48db7c" class="album-img cols-sm-6" alt="">
+                        <img src="https://i.scdn.co/image/6c41981dc659cc8a19a0371f42951d8dec48db7c" class="album-img cols-sm-6" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--
+      <header class="navbar navbar-dark navbar-fixed-top" role="banner">
+       <div class="container">
+           <div class="navbar-header">
+               <a href="#">
+                   <span class="navbar-logo">Spotify</span>
+               </a>
+           </div>
+           <nav class="collapse navbar-collapse" id="navbar-nav" role="navigation">
+               <ul class="nav navbar-nav navbar-right nav-main">
+                   <li class="hidden">
+                       <a href="#" id="nav-link-Explore">
+                           Explore
+                       </a>
+                   </li>
+                   <li>
+                       <a href="#" id="nav-link-premium">
+                           Premium
+                       </a>
+                   </li>
+                   <li>
+                       <a href="#" id="nav-link-help">
+                           Help
+                       </a>
+                   </li>
+                   <li>
+                       <a href="#" id="nav-link-download">
+                           Download
+                       </a>
+                   </li>
+                   <li role="separator" class="divider"></li>
+                   <li>
+                       <a href="#" id="nav-link-sign-up">
+                           Sign up
+                       </a>
+                   </li>
+                   <li>
+                       <a href="#" id="header-login-link">
+                           Log in
+                       </a>
+                   </li>
+               </ul>
+           </nav>
+       </div>
+   </header>
+-->
+
+
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+    <!--<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>-->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

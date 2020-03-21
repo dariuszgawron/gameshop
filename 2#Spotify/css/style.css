@@ -1,0 +1,140 @@
+/*@font-face{
+    font-family: Circular;
+    src: url('circular-medium.woff2');
+}*/
+
+body{
+    font-family: Helvetica,Arial,sans-serif;
+/*    font-family: Circular,Helvetica,Arial,sans-serif;*/
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222326;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar-dark{
+    background-color: rgba(0,0,0,.6);
+}
+
+.navbar-dark .navbar-nav>li>a{
+    color: #fff;
+    padding: 28px 17px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover{
+    background-color: inherit;
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+.nav .divider{
+    background-color: #d9dadc;
+    width: 1px;
+    height: 16px;
+    margin: 32px 17px;
+}
+
+.navbar-logo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 132px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+    float: left;
+    background-image: url('../img/logo.svg');
+}
+
+.bg-main{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(50deg, #ff4169 0, #7c26f8 100%);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.bg-main-img{
+    display: block;
+    background-image: url('../img/bg-albums.png');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    opacity: 9%;
+}
+
+.text-white{
+    color: white;
+}
+
+.jumbotron{
+    background: none;
+    padding: 100px 0;
+    text-align: center;
+    margin: 0;
+}
+
+.carousel-control.right, .carousel-control.left{
+    background: none;
+}
+
+.btn {
+    padding: 17px 48px;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    padding: 18px 48px 16px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border-width: 0;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+}
+
+.jumbotron .btn{
+    margin: 20px 10px 30px;
+}
+
+.btn-solid{
+    color:#fff;
+    background-color: #7c25f8;
+}
+
+.btn-solid:hover{
+    color:#fff;
+    background-color: #6207e3;
+}
+
+.btn-lg{
+    font-size: 16px;
+    line-height: 1;
+    border-radius: 500px;
+    padding: 21px 56px 19px;
+}
+
+.carousel-item h1{
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.text-signup a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+#carousel-tour{
+    margin-top: 150px;
+}
